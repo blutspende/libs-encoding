@@ -1,5 +1,5 @@
 # encoding
-Contains a list of encodings. Can be used with this library's encoding utility functions directly or with other message processing libraries such as `github.com/blutspende/go-astm`.
+Contains a list of encodings. Can be used with this library's encoding utility functions directly in instrument drivers or with other message processing libraries such as `github.com/blutspende/go-parser`.
 
 Also contains utility functions for encoding and decoding.
 ```go
@@ -9,4 +9,4 @@ func ConvertArrayFromUTF8ToEncoding(input []string, encoding encoding.Encoding) 
 ```
 
 ###### Install
-`go get github.com/blutspende/libs/encoding`
+`go get github.com/blutspende/libs-encoding`

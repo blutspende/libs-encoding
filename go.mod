@@ -1,4 +1,4 @@
-module github.com/blutspende/libs/encoding
+module github.com/blutspende/libs-encoding
 
 go 1.26.6
 
